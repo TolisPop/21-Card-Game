@@ -1,0 +1,37 @@
+<html>
+
+<head>
+ 
+  <title>21 Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <body bgcolor="#009933">
+  <div>
+    <div><center>
+      <h1><b>21 Game</b></h1>
+      <div id="message">Let's Start!</div>
+      <div id="start">
+        <button id="btnstart" type="button" onclick="Start()" class="btn">Start Game</button>
+      </div>
+      <div class="total"><b>Total £</b><span id="pounds">1000</span>
+      </div> <div id="myactions">
+          <button id="btnhold" type="button" onclick="cardAction('hold')" class="btn">Hold</button>
+          <button id="btnhit" type="button" onclick="cardAction('hit')" class="btn">Hit</button>
+          <button id="btndouble" type="button" onclick="cardAction('double')" class="btn">Double</button>
+        </div>
+      <div id="output">
+        <b>Dealer Hand :</b> <span id="dValue"></span>
+        <div id="dealerHolder"></div>
+        <b>Your Hand : </b><span id="pValue"></span>
+        <div id="playerHolder"></div>
+        
+        <div>
+          <button id="btndeal" type="button" onclick="dealNew()" class="btn">Deal</button>
+        </div>
+      </div>
+	  <br><b>Bet Amount £</b><input type="number" id="mybet" value="5" min="1" max="1000"><button id="maxbet" type="button" onclick="maxbet()" class="btn">Bet</button>
+      </center>
+      <script src="script.js"></script>
+</body>
+</html>

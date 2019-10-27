@@ -1,0 +1,134 @@
+#output {
+  font-size: 1.5em;
+}
+
+#btndeal, #myactions {
+  display: none;
+}
+
+#btndeal {
+  background-color: purple;
+  font-size: 50px;
+}
+
+#maxbet {
+  background-color: #008000;
+  font-size: 30px;
+}
+
+#btnstart {
+  background-color: #003314;
+}
+
+#mybet {
+  font-size: 25px;
+}
+
+.total {
+  font-size: 25px;
+}
+.btn {
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #f2f5c7;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  font: normal 700 24px/1 "Calibri", sans-serif;
+}
+
+#cover {
+  height: 160px;
+  width: 120px;
+  background-color: #cc0000;
+  border-radius: 10px;
+  position: absolute;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.icard {
+  height: 165px;
+  width: 125px;
+  padding: 7px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 100px;
+  display: inline-block;
+  font-family: 'Lato';
+}
+
+.top-card {
+  font-size: 28px;
+  line-height: 20px;
+  left: 2px;
+  top: 2px;
+}
+
+.content-card {
+  text-align: center;
+  font-size: 74px;
+}
+
+.bottom-card {
+  font-size: 25px;
+  line-height: 19px;
+  right: 1000px;
+  bottom: 2px;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+
+
+.hearts, .diams {
+  color: red;
+}
+
+.clubs, .spades {
+  color: black;
+} 
+.hearts .suit::after {
+  content: '\2665';
+}
+
+.diams .suit::after {
+  content: '\2666';
+}
+
+.spades .suit::after {
+  content: '\2660';
+}
+
+.clubs .suit::after {
+  content: '\2663';
+}
+
+#dealerHolder, #playerHolder {
+  height: 170px;
+  width: 490px;
+}
+
+#message {
+  height: 85px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#btnhold {
+  background-color: #00ff00;
+}
+
+#btnhit {
+  background-color: #fa0000;
+}
+
+#btndouble {
+  background-color: #66ffff;
+}
+
